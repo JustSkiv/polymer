@@ -250,6 +250,13 @@ public class Polymer {
     return resultPolymer;
   }
 
+  /**
+   * Возвращает набор случайных полимеров
+   * @param foundationCoordinates
+   * @param length
+   * @param count
+   * @return
+   */
   public static ArrayList<ArrayList<int[]>> getRandomPolymersSet(int[] foundationCoordinates, int length, int count) {
     ArrayList<ArrayList<int[]>> resultPolymers = new ArrayList<ArrayList<int[]>>();
 
