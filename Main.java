@@ -7,7 +7,7 @@ public class Main {
     int[] basicCoordinates = new int[]{0, 0, 0};
 
 
-    ArrayList<ArrayList<int[]>> polymers = Polymer.getRandomPolymersSet(basicCoordinates, 3, 20);
+    ArrayList<ArrayList<int[]>> polymers = Polymer.getRandomPolymersSet(basicCoordinates, 21, 1000000);
 
     for (int i = 0; i < polymers.size(); i++) {
       //System.out.println("\nPolymer №: " + i);

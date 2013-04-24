@@ -216,8 +216,8 @@ public class Polymer {
       int[] lastPoint = polymer.get(lastPointNumber);
 
       int x = lastPoint[0];
-      int y = lastPoint[0];
-      int z = lastPoint[0];
+      int y = lastPoint[1];
+      int z = lastPoint[2];
 
       float radiusSquared = x * x + y * y + z * z;
 
@@ -241,7 +241,7 @@ public class Polymer {
 
     final Random generator = new Random();
     for (int i = 1; i < length; i++) {
-      int directionNumber = generator.nextInt(5);
+      int directionNumber = generator.nextInt(6);
 
       resultPolymer = Polymer.buildPointByDirectionNumber(resultPolymer, resultPolymer.size() - 1, directionNumber);
     }
