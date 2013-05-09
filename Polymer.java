@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Random;
+import java.util.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -18,7 +16,7 @@ public class Polymer {
    * @param fromPoint Точка от которой будем строить
    * @param direction В какую сторону строить (0-5: x, -x, y, -y, z, -z)
    */
-  public static ArrayList<int[]> buildPointByDirectionNumber(ArrayList<int[]> polymer, int fromPoint, int direction, int step) {
+  public static ArrayList<int[]> buildPointByDirectionNumber(ArrayList<int[]> polymer, int fromPoint, int direction) {
     //Если понадобиться размещение построение из произвольной точки цепи,
     //то просто передавать значение position через параметр функции
     //int position = polymer.size();
@@ -32,13 +30,22 @@ public class Polymer {
 
     switch (direction) {
       case 0:
-        newPoint[0] += step;
+        newPoint[0]++;
         break;
       case 1:
-        newPoint[1] += step;
+        newPoint[1]++;
         break;
       case 2:
-        newPoint[2] += step;
+        newPoint[2]++;
+        break;
+      case 3:
+        newPoint[2]--;
+        break;
+      case 4:
+        newPoint[1]--;
+        break;
+      case 5:
+        newPoint[0]--;
         break;
     }
 
@@ -75,15 +82,13 @@ public class Polymer {
   public static ArrayList<ArrayList<int[]>> buildSetPolymersFromPoint(ArrayList<int[]> polymer, int fromPoint, int length, ArrayList<ArrayList<int[]>> resultPolymers) {
 
     if (polymer.size() - 1 != length) {
-      for (int i = 0; i <= 2; i++) {
-        for (int step = 0; step <= 1; step++) {
-          ArrayList<int[]> tPolymer = new ArrayList<int[]>();
-          tPolymer.addAll(polymer);
+      for (int i = 0; i <= 5; i++) {
+        ArrayList<int[]> tPolymer = new ArrayList<int[]>();
+        tPolymer.addAll(polymer);
 
-          tPolymer = Polymer.buildPointByDirectionNumber(tPolymer, fromPoint, i, step);
+        tPolymer = Polymer.buildPointByDirectionNumber(tPolymer, fromPoint, i);
 
-          Polymer.buildSetPolymersFromPoint(tPolymer, tPolymer.size() - 1, length, resultPolymers);
-        }
+        Polymer.buildSetPolymersFromPoint(tPolymer, tPolymer.size() - 1, length, resultPolymers);
       }
     } else {
       resultPolymers.add(polymer);
@@ -195,88 +200,159 @@ public class Polymer {
   }
 
   /**
-   * Возвращает количество контактирующих узлов в одном полимере
+   * Возвращает энергию одного полимера
    *
    * @param polymer
    * @return
    */
-  public static int getRelatedCountInOnePolymer(ArrayList<int[]> polymer) {
-    int relatedCount = 0;
-    //System.out.println(polymer.size() + "----");
+  public static int getEnergyInOnePolymer(ArrayList<int[]> polymer) {
+    int energy = 0;
     for (int i = 0; i < polymer.size(); i++) {
 
-      for (int j = i + 1; j < polymer.size(); j++) {
+      for (int j = i + 1; j < polymer.size(); j += 2) {
 
         int[] pointA = polymer.get(i);
 
         int[] tempPointB = polymer.get(j);
-        int[] pointB = new int[]{0,0,0};
+        int[] pointB = new int[]{0, 0, 0};
         System.arraycopy(tempPointB, 0, pointB, 0, tempPointB.length);
-
-//        System.out.println("A: " + Arrays.toString(pointA));
-//        System.out.println("B: " + Arrays.toString(pointB));
-//        System.out.println("-");
 
         if (Arrays.equals(pointA, pointB)) {
           continue;
         }
 
+        double distance = getDistanceSquared(pointA, pointB);
 
-
-        for (int d = 0; d <= 2; d++) {
-          for (int s = 0; s <= 1; s++) {
-            int step = 1 - 2 * s;
-
-            pointB[d] += step;
-
-//            System.out.println("A: " + Arrays.toString(pointA));
-//            System.out.println("B: " + Arrays.toString(pointB));
-
-            if (Arrays.equals(pointA, pointB)) {
-              relatedCount++;
-            }
-
-            pointB[d] -= step;
-          }
+        if (distance == 1) {
+          energy++;
         }
+
       }
 
     }
 
 
-    return relatedCount;
+    return energy;
   }
 
   /**
-   * Возвращает количество контактирующих узлов в наборе
+   * Возвращает сумму энергий полимеров набора
    *
    * @param polymers
    * @return
    */
-  public static int getRelatedCountInManyPolymers(ArrayList<ArrayList<int[]>> polymers) {
+  public static int getEnergyInManyPolymers(ArrayList<ArrayList<int[]>> polymers) {
     int result = 0;
     for (ArrayList<int[]> polymer : polymers) {
-      result += Polymer.getRelatedCountInOnePolymer(polymer);
+      result += Polymer.getEnergyInOnePolymer(polymer);
     }
 
     return result;
   }
 
   /**
-   * Возвращает среднее количество контактирующих узлов в одном полимере
+   * Возвращает сумм квадратов расстояния между концами полимеров по энергиям
    *
    * @param polymers
    * @return
    */
-  public static int getRelatedAverageInManyPolymers(ArrayList<ArrayList<int[]>> polymers) {
-    int result = 0;
+  public static Map<Integer, Double> getDistributionOfDistancesByEnergyInManyPolymers(ArrayList<ArrayList<int[]>> polymers) {
+    Map<Integer, Double> distribution = new HashMap<Integer, Double>();
+
     for (ArrayList<int[]> polymer : polymers) {
-      result += Polymer.getRelatedCountInOnePolymer(polymer);
+      int tEnergy = Polymer.getEnergyInOnePolymer(polymer);
+      double tRadiusTotal = distribution.get(tEnergy) == null ? 0 : distribution.get(tEnergy);
+
+      double radiusSquared = getRadiusSquared(polymer);
+
+      distribution.put(tEnergy, (tRadiusTotal + radiusSquared));
     }
 
-    result /= polymers.size();
 
-    return result;
+    return distribution;
+  }
+
+  /**
+   * Возвращает распределение полимеров по энергиям
+   *
+   * @param polymers
+   * @return
+   */
+  public static Map<Integer, Integer> getDistributionByEnergyInManyPolymers(ArrayList<ArrayList<int[]>> polymers) {
+    Map<Integer, Integer> distribution = new HashMap<Integer, Integer>();
+
+    for (ArrayList<int[]> polymer : polymers) {
+      int tEnergy = Polymer.getEnergyInOnePolymer(polymer);
+      int tCount = distribution.get(tEnergy) == null ? 0 : distribution.get(tEnergy);
+      distribution.put(tEnergy, ++tCount);
+    }
+
+
+    return distribution;
+  }
+
+  /**
+   * !!! НЕ РЕАЛИЗОВАНО (пока не требуется) !!!
+   * Возвращает среднюю энергию набора полимеров
+   *
+   * @param polymers
+   * @return
+   */
+  public static Map<Integer, Integer> getEnergyAverageInManyPolymers(ArrayList<ArrayList<int[]>> polymers) {
+    Map<Integer, Integer> distribution;
+
+    distribution = getDistributionByEnergyInManyPolymers(polymers);
+
+    for (Map.Entry entry : distribution.entrySet()) {
+
+    }
+
+    return distribution;
+  }
+
+  /**
+   * Возвращает квадрат расстояния между указанными узлами
+   *
+   * @param pointA
+   * @param pointB
+   * @return
+   */
+  public static double getDistanceSquared(int[] pointA, int[] pointB) {
+    double x1 = pointA[0];
+    double y1 = pointA[1];
+    double z1 = pointA[2];
+
+    double x2 = pointB[0];
+    double y2 = pointB[1];
+    double z2 = pointB[2];
+
+    double dx = x1 - x2;
+    double dy = y1 - y2;
+    double dz = z1 - z2;
+
+    double radiusSquared = Math.pow(dx, 2) + Math.pow(dy, 2) + Math.pow(dz, 2);
+
+
+    return radiusSquared;
+  }
+
+  /**
+   * Возвращает квадрат расстояния между первым и последним узлами полимера
+   *
+   * @param polymer
+   * @return
+   */
+  public static double getRadiusSquared(ArrayList<int[]> polymer) {
+
+    int[] firstPoint = polymer.get(0);
+
+    int lastPointNumber = polymer.size() - 1;
+    int[] lastPoint = polymer.get(lastPointNumber);
+
+    double radiusSquared = getDistanceSquared(firstPoint, lastPoint);
+
+
+    return radiusSquared;
   }
 
 
@@ -290,14 +366,7 @@ public class Polymer {
     float result = 0;
 
     for (ArrayList<int[]> polymer : polymers) {
-      int lastPointNumber = polymer.size() - 1;
-      int[] lastPoint = polymer.get(lastPointNumber);
-
-      int x = lastPoint[0];
-      int y = lastPoint[1];
-      int z = lastPoint[2];
-
-      float radiusSquared = x * x + y * y + z * z;
+      double radiusSquared = getRadiusSquared(polymer);
 
       result += radiusSquared;
     }
@@ -323,19 +392,17 @@ public class Polymer {
     int lastStep = 0;
 
     for (int i = 1; i <= length; i++) {
-      int directionNumber = generator.nextInt(3);
+      int dirsCount = 6;
+      if (semiPhantom) dirsCount = 5;
+      int directionNumber = generator.nextInt(dirsCount);
 
-      int step;
-      if (directionNumber != lastDirection || !semiPhantom) {
-        step = 1 - generator.nextInt(2) * 2;
-      } else {
-        step = lastStep == 1 ? -1 : 1;
+      if (directionNumber >= (5 - lastDirection) && semiPhantom) {
+        directionNumber++;
       }
 
-      resultPolymer = Polymer.buildPointByDirectionNumber(resultPolymer, resultPolymer.size() - 1, directionNumber, step);
+      resultPolymer = Polymer.buildPointByDirectionNumber(resultPolymer, resultPolymer.size() - 1, directionNumber);
 
       lastDirection = directionNumber;
-      lastStep = step;
     }
 
 
@@ -350,11 +417,11 @@ public class Polymer {
    * @param count
    * @returnНекоторые вопросы статистической теории биополимеров
    */
-  public static ArrayList<ArrayList<int[]>> getRandomPolymersSet(int[] foundationCoordinates, int length, int count) {
+  public static ArrayList<ArrayList<int[]>> getRandomPolymersSet(int[] foundationCoordinates, int length, int count, boolean semiPhantom) {
     ArrayList<ArrayList<int[]>> resultPolymers = new ArrayList<ArrayList<int[]>>();
 
     for (int i = 0; i < count; i++) {
-      ArrayList<int[]> tPolymer = Polymer.getRandomPolymer(foundationCoordinates, length, false);
+      ArrayList<int[]> tPolymer = Polymer.getRandomPolymer(foundationCoordinates, length, semiPhantom);
       resultPolymers.add(tPolymer);
     }
 

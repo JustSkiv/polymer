@@ -7,7 +7,7 @@ public class Main {
     int[] basicCoordinates = new int[]{0, 0, 0};
 
 
-    ArrayList<ArrayList<int[]>> polymers = Polymer.getRandomPolymersSet(basicCoordinates, 8, 10000);
+    ArrayList<ArrayList<int[]>> polymers = Polymer.getRandomPolymersSet(basicCoordinates, 8, 4000, false);
 
     for (int i = 0; i < polymers.size(); i++) {
       //System.out.println("\nPolymer №: " + i);
@@ -19,17 +19,18 @@ public class Main {
 
     }
 
-    System.out.println("Polymers Related count: " + Polymer.getRelatedCountInManyPolymers(polymers));
-    System.out.println("Polymers Related average count: " + Polymer.getRelatedAverageInManyPolymers(polymers));
+    System.out.println("Polymers getEnergyInManyPolymers: " + Polymer.getEnergyInManyPolymers(polymers));
+    System.out.println("Polymers Related average count: " + Polymer.getEnergyAverageInManyPolymers(polymers));
+    System.out.println("Polymers getDistributionOfDistancesByEnergyInManyPolymers: " + Polymer.getDistributionOfDistancesByEnergyInManyPolymers(polymers));
     System.out.println("Polymers NotIntersected count: " + Polymer.getNotIntersectedCountInManyPolymers(polymers));
     System.out.println("Polymers average radius: " + Polymer.getAverageRadius(polymers));
     System.out.println("Polymers count: " + polymers.size());
 
-    for (int i = 0; i < 15; i++) {
+    /*for (int i = 0; i < 15; i++) {
       ArrayList<ArrayList<int[]>> polymers2 = Polymer.getRandomPolymersSet(basicCoordinates, i, 10000);
 
       System.out.println(i + "\t" + Polymer.getRelatedAverageInManyPolymers(polymers2));
-    }
+    }*/
 
     /*ArrayList<int[]> tPolymer = Polymer.getRandomPolymer(basicCoordinates, 4);
 
