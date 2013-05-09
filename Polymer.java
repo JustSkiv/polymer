@@ -28,26 +28,9 @@ public class Polymer {
     int[] newPoint = new int[3];
     System.arraycopy(currentPoint, 0, newPoint, 0, currentPoint.length);
 
-    switch (direction) {
-      case 0:
-        newPoint[0]++;
-        break;
-      case 1:
-        newPoint[1]++;
-        break;
-      case 2:
-        newPoint[2]++;
-        break;
-      case 3:
-        newPoint[2]--;
-        break;
-      case 4:
-        newPoint[1]--;
-        break;
-      case 5:
-        newPoint[0]--;
-        break;
-    }
+
+    if (direction < 3) newPoint[direction]++;
+    else newPoint[5 - direction]--;
 
     tPolymer.add(newPoint);
 
@@ -207,15 +190,13 @@ public class Polymer {
    */
   public static int getEnergyInOnePolymer(ArrayList<int[]> polymer) {
     int energy = 0;
+    int epsilon = -1;
     for (int i = 0; i < polymer.size(); i++) {
 
       for (int j = i + 1; j < polymer.size(); j += 2) {
 
         int[] pointA = polymer.get(i);
-
-        int[] tempPointB = polymer.get(j);
-        int[] pointB = new int[]{0, 0, 0};
-        System.arraycopy(tempPointB, 0, pointB, 0, tempPointB.length);
+        int[] pointB = polymer.get(j);
 
         if (Arrays.equals(pointA, pointB)) {
           continue;
@@ -223,8 +204,8 @@ public class Polymer {
 
         double distance = getDistanceSquared(pointA, pointB);
 
-        if (distance == 1) {
-          energy++;
+        if (Math.round(distance) == 1) {
+          energy += epsilon;
         }
 
       }
@@ -317,20 +298,20 @@ public class Polymer {
    * @param pointB
    * @return
    */
-  public static double getDistanceSquared(int[] pointA, int[] pointB) {
-    double x1 = pointA[0];
-    double y1 = pointA[1];
-    double z1 = pointA[2];
+  public static int getDistanceSquared(int[] pointA, int[] pointB) {
+    int x1 = pointA[0];
+    int y1 = pointA[1];
+    int z1 = pointA[2];
 
-    double x2 = pointB[0];
-    double y2 = pointB[1];
-    double z2 = pointB[2];
+    int x2 = pointB[0];
+    int y2 = pointB[1];
+    int z2 = pointB[2];
 
-    double dx = x1 - x2;
-    double dy = y1 - y2;
-    double dz = z1 - z2;
+    int dx = x1 - x2;
+    int dy = y1 - y2;
+    int dz = z1 - z2;
 
-    double radiusSquared = Math.pow(dx, 2) + Math.pow(dy, 2) + Math.pow(dz, 2);
+    int radiusSquared = (int) (Math.pow(dx, 2) + Math.pow(dy, 2) + Math.pow(dz, 2));
 
 
     return radiusSquared;
@@ -389,7 +370,6 @@ public class Polymer {
     final Random generator = new Random();
 
     int lastDirection = 0;
-    int lastStep = 0;
 
     for (int i = 1; i <= length; i++) {
       int dirsCount = 6;
