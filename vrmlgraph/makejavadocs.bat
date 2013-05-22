@@ -1,0 +1,2 @@
+rem javadoc -d uk/org/iscream/vrmlgraph/ -use -author -windowtitle "3D VRML Spring Embedder in Java" -header "<img src='spring3d.gif' width='100' height='73'>" uk.org.iscream.vrmlgraph
+javadoc -d uk/org/iscream/vrmlgraph/javadocs/ -use -author -windowtitle "3D VRML Spring Embedder in Java" -header "<img src='spring3d.gif' width='100' height='73'>" uk.org.iscream.vrmlgraph

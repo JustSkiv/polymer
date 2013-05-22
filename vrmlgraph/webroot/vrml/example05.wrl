@@ -1,0 +1,2020 @@
+#VRML V2.0 utf8
+
+WorldInfo {
+    title "3D force directed graph, copyright P.J.Mutton 2000"
+    info "Automatically generated force directed graph, paul.mutton@bigfoot.com"
+}
+
+Viewpoint {
+    description "pjm2"
+    position 0.0 0.0 20.0
+}
+
+Background {
+    skyColor 0.9 0.9 1
+}
+
+Transform {
+    translation 25.2911851733025 -5.77580596301974 -25.668222735779565
+    children [
+        Transform {
+            translation -22.38940702548585 3.068242471130441 22.246084292281186
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "a" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -20.80482812203475 4.0815502547756894 23.55532282999836
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "b" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -20.556927870653354 6.359065237181367 23.498230934033497
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "c" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -21.89360652272303 7.6232724359417965 22.131900500351477
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "d" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -23.478185426174125 6.609964652296545 20.8226619626343
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "e" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -23.726085677555524 4.3324496698908685 20.87975385859917
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "f" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -24.479579551318608 2.8035975467495073 24.50337352356268
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "g" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -22.51792085496112 4.058040617741517 26.124169532853063
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "h" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -22.211028163854053 6.877532320925364 26.053491566633124
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "i" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -23.86579416910445 8.442580953117199 24.36201759112282
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "j" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -25.827452865461936 7.188137882125189 22.741221581832438
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "k" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -26.134345556569002 4.368646178941343 22.811899548052377
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "l" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -26.71657617750064 3.109030972922284 26.974427880436217
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "m" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -24.754917481143128 4.363474043914232 28.595223889726633
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "n" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -24.448024790035948 7.182965747098072 28.5245459235068
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "o" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -26.102790795286307 8.748014379289957 26.83307194799653
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "p" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -28.06444949164382 7.493571308298015 25.212275938706114
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "q" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -28.371342182751 4.674079605114175 25.282953904925943
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "r" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -28.688763823882113 3.9283394900976933 29.20454497120751
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "s" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -27.104184920430967 4.941647273742818 30.513783508924746
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "t" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -26.85628466904941 7.219162256148484 30.45669161296004
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "u" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -28.192963321119013 8.48336945490902 29.090361179278073
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "v" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -29.777542224570155 7.470061671263898 27.781122641560838
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "w" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -30.02544247595172 5.192546688858233 27.838214537525545
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "x" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -28.922849199651953 6.27166347719468 29.679869025264004
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "y" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -21.659521146953047 5.279948448844794 21.65657644629512
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0 0 1
+                        }
+                    }
+                    geometry Text {
+                        string [ "z" ]
+                        fontStyle FontStyle {
+                            size 0.6
+                        }
+                    }
+                }
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 1 0.95 0.7
+                            transparency 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.5
+                    }
+                }
+            ]
+        }
+        Transform {
+            rotation 0 1.3092385377171745 -1.0133077836452484 0.7634931014970823
+            translation -21.5971175737603 3.5748963629530652 22.90070356113977
+            children [
+                Transform {
+                    rotation 1 0 0 0.9121317821122242
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.2916781000616422
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 -0.05709189596486297 -2.2775149824056777 0.10838620324187273
+            translation -20.68087799634405 5.220307745978529 23.52677688201593
+            children [
+                Transform {
+                    rotation 1 0 0 -0.025062378219834102
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.2916781000616462
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 -1.3663304336820197 -1.2642071987604293 -0.6227548269355946
+            translation -21.225267196688193 6.991168836561582 22.81506571719249
+            children [
+                Transform {
+                    rotation 1 0 0 -0.8242008684302676
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.2916781000616542
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 -1.309238537717178 1.013307783645251 -0.7634931014970797
+            translation -22.685895974448577 7.116618544119171 21.47728123149289
+            children [
+                Transform {
+                    rotation 1 0 0 0.9121317821122242
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.291678100061643
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 0.057091895964870076 2.277514982405677 -0.10838620324187431
+            translation -23.602135551864826 5.471207161093707 20.851207910616736
+            children [
+                Transform {
+                    rotation 1 0 0 -0.02506237821983723
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.2916781000616457
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 1.3663304336820161 1.2642071987604275 0.6227548269355956
+            translation -23.057746351520684 3.700346070510655 21.562919075440178
+            children [
+                Transform {
+                    rotation 1 0 0 -0.8242008684302671
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.291678100061651
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 1.620796009290384 -1.2544430709920094 0.7634931014970882
+            translation -23.498750203139863 3.4308190822455122 25.313771528207873
+            children [
+                Transform {
+                    rotation 1 0 0 0.9121317821122484
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.8370251960612656
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 -0.07067796621993949 -2.8194917031838473 0.1083862032418892
+            translation -22.364474509407586 5.46778646933344 26.088830549743093
+            children [
+                Transform {
+                    rotation 1 0 0 -0.025062378219819794
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.8370251960612682
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 -1.691473975510302 -1.5650486321918349 -0.6227548269355856
+            translation -23.03841116647925 7.660056637021281 25.207754578877974
+            children [
+                Transform {
+                    rotation 1 0 0 -0.8242008684302501
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.8370251960612753
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 -1.620796009290384 1.2544430709920098 -0.7634931014970874
+            translation -24.84662351728319 7.815359417621194 23.551619586477628
+            children [
+                Transform {
+                    rotation 1 0 0 0.9121317821122482
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.837025196061263
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 0.07067796621993949 2.8194917031838465 -0.10838620324188925
+            translation -25.98089921101547 5.778392030533266 22.776560564942407
+            children [
+                Transform {
+                    rotation 1 0 0 -0.0250623782198198
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.8370251960612674
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 1.691473975510302 1.5650486321918353 0.6227548269355845
+            translation -25.306962553943805 3.586121862845425 23.657636535807526
+            children [
+                Transform {
+                    rotation 1 0 0 -0.8242008684302499
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.8370251960612736
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 1.620796009290416 -1.2544430709919485 0.7634931014970975
+            translation -25.735746829321883 3.736252508418258 27.784825885081425
+            children [
+                Transform {
+                    rotation 1 0 0 0.9121317821122815
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.837025196061274
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 -0.07067796621983291 -2.8194917031838393 0.10838620324192946
+            translation -24.601471135589538 5.773219895506152 28.559884906616716
+            children [
+                Transform {
+                    rotation 1 0 0 -0.025062378219782088
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.8370251960612696
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 -1.6914739755102701 -1.5650486321918855 -0.6227548269355723
+            translation -25.275407792661127 7.965490063194014 27.678808935751665
+            children [
+                Transform {
+                    rotation 1 0 0 -0.8242008684302244
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.8370251960612616
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 -1.620796009290416 1.2544430709919423 -0.7634931014970985
+            translation -27.083620143465062 8.120792843793986 26.02267394335132
+            children [
+                Transform {
+                    rotation 1 0 0 0.9121317821122839
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.837025196061271
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 0.07067796621982936 2.8194917031838402 -0.10838620324192944
+            translation -28.21789583719741 6.083825456706094 25.24761492181603
+            children [
+                Transform {
+                    rotation 1 0 0 -0.025062378219780822
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.8370251960612705
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 1.6914739755102737 1.5650486321918908 0.6227548269355709
+            translation -27.54395918012582 3.8915552890182292 26.128690892681078
+            children [
+                Transform {
+                    rotation 1 0 0 -0.8242008684302239
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.8370251960612665
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 1.3092385377172349 -1.013307783645125 0.7634931014971051
+            translation -27.89647437215654 4.434993381920256 29.85916424006613
+            children [
+                Transform {
+                    rotation 1 0 0 0.9121317821123055
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.2916781000616542
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 -0.05709189596470665 -2.2775149824056653 0.10838620324194441
+            translation -26.980234794740188 6.080404764945651 30.485237560942394
+            children [
+                Transform {
+                    rotation 1 0 0 -0.025062378219765646
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.2916781000616475
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 -1.3663304336819664 -1.2642071987605368 -0.6227548269355608
+            translation -27.524623995084212 7.851265855528752 29.773526396119056
+            children [
+                Transform {
+                    rotation 1 0 0 -0.8242008684302058
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.2916781000616404
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 -1.3092385377172349 1.0133077836451223 -0.7634931014971045
+            translation -28.985252772844582 7.97671556308646 28.435741910419456
+            children [
+                Transform {
+                    rotation 1 0 0 0.9121317821123067
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.2916781000616506
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 0.05709189596470665 2.2775149824056653 -0.10838620324194748
+            translation -29.901492350260938 6.331304180061066 27.809668589543193
+            children [
+                Transform {
+                    rotation 1 0 0 -0.025062378219765646
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.2916781000616484
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 1.3663304336819664 1.2642071987605394 0.6227548269355616
+            translation -29.357103149916917 4.560443089477963 28.521379754366528
+            children [
+                Transform {
+                    rotation 1 0 0 -0.8242008684302048
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.2916781000616435
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 2.2572892312814936 0.2646449243809337 -0.7435750948049958
+            translation -23.43449328840223 2.9359200089399744 23.374728907921934
+            children [
+                Transform {
+                    rotation 1 0 0 -1.4540889565244157
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 2.0877520621653036
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 2.568846702854703 0.023509637034172748 -0.5881256283860858
+            translation -21.661374488497934 4.0697954362586035 24.83974618142571
+            children [
+                Transform {
+                    rotation 1 0 0 -1.5616447566821294
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 2.0877520621653054
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 2.5552606325996265 -0.5184670837439969 -0.5653332572635259
+            translation -21.383978017253703 6.618298779053365 24.77586125033331
+            children [
+                Transform {
+                    rotation 1 0 0 1.37061209972278
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 2.0877520621653036
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 2.230117090771344 -0.8193085171754024 -0.6928245789188628
+            translation -22.87970034591374 8.032926694529497 23.24695904573715
+            children [
+                Transform {
+                    rotation 1 0 0 1.2187196821995403
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 2.0877520621653045
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 1.9185596191981382 -0.5781732298286437 -0.8645976511583517
+            translation -24.65281914581803 6.899051267210867 21.781941772233367
+            children [
+                Transform {
+                    rotation 1 0 0 1.2780941555050498
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 2.087752062165306
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 1.9321456894532076 -0.03619650905047411 -0.8945691847906324
+            translation -24.930215617062263 4.350547924416105 21.845826703325773
+            children [
+                Transform {
+                    rotation 1 0 0 1.5520646774842777
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 2.0877520621653
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 2.4710543568735375 -0.30543342617277647 -0.7319542120632734
+            translation -25.598077864409625 2.956314259835896 25.738900701999448
+            children [
+                Transform {
+                    rotation 1 0 0 1.44781560300342
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 2.347170912576341
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 2.4710543568735694 -0.3054334261727156 -0.7319542120632629
+            translation -23.63641916805212 4.2107573308278745 27.35969671128985
+            children [
+                Transform {
+                    rotation 1 0 0 1.4478156030034457
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 2.3471709125763422
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 2.471054356873676 -0.30543342617270763 -0.7319542120632169
+            translation -23.329526476945 7.030249034011717 27.28901874506996
+            children [
+                Transform {
+                    rotation 1 0 0 1.4478156030034541
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 2.3471709125763445
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 2.471054356873708 -0.30543342617275826 -0.7319542120632005
+            translation -24.98429248219538 8.595297666203578 25.597544769559676
+            children [
+                Transform {
+                    rotation 1 0 0 1.4478156030034355
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 2.3471709125763462
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 2.471054356873676 -0.30543342617282576 -0.7319542120632115
+            translation -26.94595117855288 7.340854595211602 23.976748760269274
+            children [
+                Transform {
+                    rotation 1 0 0 1.447815603003407
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 2.347170912576348
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 2.471054356873566 -0.305433426172832 -0.7319542120632585
+            translation -27.25284386966 4.521362892027758 24.04742672648916
+            children [
+                Transform {
+                    rotation 1 0 0 1.447815603003399
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 2.347170912576343
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 2.2301170907712944 -0.8193085171754095 -0.6928245789188843
+            translation -27.702670000691377 3.5186852315099886 28.089486425821864
+            children [
+                Transform {
+                    rotation 1 0 0 1.2187196821995303
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 2.0877520621653023
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 1.9185596191981134 -0.578173229828586 -0.8645976511583676
+            translation -25.929551200787046 4.652560658828525 29.55450369932569
+            children [
+                Transform {
+                    rotation 1 0 0 1.2780941555050738
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 2.0877520621653014
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 1.9321456894532396 -0.03619650905041194 -0.8945691847906209
+            translation -25.65215472954268 7.201064001623278 29.490618768233418
+            children [
+                Transform {
+                    rotation 1 0 0 1.55206467748431
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 2.087752062165306
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 2.2572892312815434 0.2646449243809368 -0.7435750948049723
+            translation -27.14787705820266 8.61569191709949 27.961716563637303
+            children [
+                Transform {
+                    rotation 1 0 0 -1.4540889565244168
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 2.087752062165304
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 2.5688467028547244 0.023509637034116793 -0.5881256283860727
+            translation -28.920995858106988 7.4818164897809565 26.496699290133478
+            children [
+                Transform {
+                    rotation 1 0 0 -1.5616447566821514
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 2.0877520621653027
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 2.5552606325996017 -0.5184670837440581 -0.5653332572635338
+            translation -29.19839232935136 4.933313146986204 26.560584221225746
+            children [
+                Transform {
+                    rotation 1 0 0 1.370612099722755
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 2.087752062165305
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 0.47532405405649314 -2.343323987096987 -0.09758983825013069
+            translation -28.80580651176703 5.100001483646187 29.442206998235758
+            children [
+                Transform {
+                    rotation 1 0 0 0.20012655996236703
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.402477102496115
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 -0.8339144836607417 -1.3300162034518621 -0.8587026234613586
+            translation -28.01351706004146 5.606655375468749 30.096826267094375
+            children [
+                Transform {
+                    rotation 1 0 0 -0.5600331617105202
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.4024771024960994
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 -0.7768225876960351 0.9474987789538032 -1.0356239651912147
+            translation -27.889566934350682 6.7454128666715825 30.06828031911202
+            children [
+                Transform {
+                    rotation 1 0 0 0.6867378696511836
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.4024771024961358
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 0.5895078459859313 2.21170597771434 -0.3086844710309175
+            translation -28.557906260385483 7.37751646605185 29.385115102271037
+            children [
+                Transform {
+                    rotation 1 0 0 -0.26048401875510174
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.4024771024961127
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 1.8987463837031662 1.1983981940692177 0.3637216968413936
+            translation -29.350195712111052 6.870862574229289 28.73049583341242
+            children [
+                Transform {
+                    rotation 1 0 0 -1.0077850959025063
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.4024771024960967
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 1.8416544877384595 -1.0791167883364476 0.4768019682066178
+            translation -29.474145837801835 5.732105083026457 28.759041781394775
+            children [
+                Transform {
+                    rotation 1 0 0 1.0407720364123996
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.402477102496137
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 -0.5895078459860663 -2.2117059777143533 0.3086844710308565
+            translation -22.024464086219446 4.174095459987617 21.95133036928815
+            children [
+                Transform {
+                    rotation 1 0 0 -0.2604840187551572
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.4024771024961162
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 -1.8987463837032408 -1.1983981940691049 -0.3637216968414306
+            translation -21.232174634493898 4.680749351810242 22.60594963814674
+            children [
+                Transform {
+                    rotation 1 0 0 -1.0077850959025665
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.402477102496133
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 -1.8416544877383778 1.0791167883365729 -0.4768019682065916
+            translation -21.1082245088032 5.81950684301308 22.57740369016431
+            children [
+                Transform {
+                    rotation 1 0 0 1.0407720364123296
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.4024771024960963
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 -0.47532405405635814 2.343323987097002 0.09758983825019006
+            translation -21.776563834838036 6.451610442393296 21.8942384733233
+            children [
+                Transform {
+                    rotation 1 0 0 0.20012655996231044
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.4024771024961167
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 0.8339144836608199 1.330016203451751 0.8587026234614001
+            translation -22.568853286563588 5.944956550570669 21.23961920446471
+            children [
+                Transform {
+                    rotation 1 0 0 -0.5600331617106
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.4024771024961353
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform {
+            rotation 0 0.7768225876959498 -0.9474987789539258 1.035623965191186
+            translation -22.692803412254285 4.806199059367831 21.268165152447146
+            children [
+                Transform {
+                    rotation 1 0 0 0.6867378696510663
+                    children [
+                        Shape {
+                            appearance Appearance {
+                                material Material {
+                                    diffuseColor 0.5 0.5 1
+                                    transparency 0.5
+                                }
+                            }
+                            geometry Cylinder {
+                                height 1.4024771024960985
+                                radius 0.1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+# Automatically generated in 6679 milliseconds.
+# Copyright Paul Mutton 2000.
+# ThreeDForce.java

@@ -1,0 +1,1995 @@
+#VRML V2.0 utf8
+
+#Please view this file in a VRML viewer.
+#You can obtain a free one from http://www.cai.com/cosmo/
+
+WorldInfo {
+    title "3D Spring Embedder Graph"
+    info "Produced using 3D Spring Embedder software written by Paul James Mutton, copyright 2000."
+}
+
+Viewpoint {
+    description "pjm2"
+    position 0.0 0.0 20.0
+}
+
+Background {
+    skyColor 0 0 0
+}
+
+Transform {
+    translation -2.5541840246905236 -3.4297080965576203 1.5064447319359804
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "1" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation 1.0491887595718534 -4.372603473381927 -0.57937138461525
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "2" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation 2.7849659928319443 -1.519847059522986 -3.2388514514228364
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "3" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation 0.9173704418297568 2.2758047311603384 -3.812515401679086
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "4" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation -2.68600234243263 3.218700107984642 -1.726699285127868
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "5" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation -4.421779575692809 0.36594369412563665 0.9327807816795932
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "6" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation -2.356118470515641 -5.263916816686032 3.3599375576799986
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "7" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation -0.6126517531863893 -4.919451464116042 4.854077740839518
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "8" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation 2.4298920959457053 -5.7155946058029885 3.0928980417669507
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "9" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation 1.8099357374897576 -6.354049169764741 0.9484127086731551
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "10" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation 3.171743393064064 -5.866918564185016 -0.2619261372588362
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "11" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation 4.894613535092956 -4.833942015349033 0.9023184176986909
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "12" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation 6.360234402182911 -2.425188605774979 -1.3432401752103278
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "13" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation 5.178569352999629 -2.5686925481931526 -3.3366949127293957
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "14" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation 5.144947672833879 -0.8729445057865668 -4.161343079490405
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "15" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation 6.29938287474034 0.6439280484038772 -2.835762271153528
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "16" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation 4.722459892698311 3.8488245996649706 -3.3201411649897947
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "17" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation 2.985719424764227 3.515413863284188 -4.824587005953885
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "18" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation 1.5902900890241654 4.724031300111031 -4.438896326782892
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "19" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation 2.1968869261084922 6.036288663389856 -2.6220836368647182
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "20" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation -0.8456569230235971 6.832431805076789 -0.8609039377921519
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "21" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation -2.575764118981237 5.814163653189729 -2.0273714777760476
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "22" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation -3.937571774555634 5.327033047609973 -0.8170326318441692
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "23" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation -3.3103783621709564 5.950779214622775 1.3296756862759462
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "24" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation -4.775999229261032 3.542025805048654 3.5752342791847713
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "25" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation -5.9443977344913845 2.0288070316179496 2.257736143626147
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "26" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation -5.910776054325623 0.33305898921135757 3.08238431038715
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "27" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation -4.71514770181846 0.4729091508698069 5.067756375127969
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "28" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation -3.1382247197763133 -2.7319874003912075 5.552135268964417
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "29" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    translation -3.7515478062557914 -4.055299379859248 3.7456282368508855
+    children [
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 0 0 1
+                }
+            }
+            geometry Text {
+                string [ "30" ]
+                fontStyle FontStyle {
+                    size 0.6
+                }
+            }
+        }
+        Shape {
+            appearance Appearance {
+                material Material {
+                    diffuseColor 1 0.95 0.7
+                    transparency 0.5
+                }
+            }
+            geometry Sphere {
+                radius 0.5
+            }
+        }
+    ]
+}
+Transform {
+    rotation 0 -2.0858161165512303 0.9428953768243069 1.004861680069335
+    translation -0.7524976325593351 -3.9011557849697738 0.4635366736603652
+    children [
+        Transform {
+            rotation 1 0 0 1.1462380511182442
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 3.268954905602108
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 -2.6594800668075864 -2.852756413858941 0.41873462225193553
+    translation 1.9170773762018989 -2.9462252664524566 -1.9091114180190432
+    children [
+        Transform {
+            rotation 1 0 0 -0.7503493769561558
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 3.2689549056021043
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 -0.5736639502562495 -3.7956517906833245 -0.4527977812303476
+    translation 1.8511682173308506 0.3779788358186762 -3.525683426550961
+    children [
+        Transform {
+            rotation 1 0 0 -0.15000187752084532
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 3.268954905602107
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 2.085816116551218 -0.9428953768243034 -1.0048616800693388
+    translation -0.8843159503014366 2.74725241957249 -2.769607343403477
+    children [
+        Transform {
+            rotation 1 0 0 1.1462380511182435
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 3.2689549056021097
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 2.659480066807461 2.852756413859005 -0.41873462225195807
+    translation -3.5538909590627195 1.7923219010551392 -0.3969592517241374
+    children [
+        Transform {
+            rotation 1 0 0 -0.7503493769561211
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 3.2689549056021043
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 0.5736639502563872 3.795651790683257 0.45279778123037284
+    translation -3.4879818001916663 -1.5318822012159918 1.2196127568077868
+    children [
+        Transform {
+            rotation 1 0 0 -0.1500018775208834
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 3.2689549056021088
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 1.8534928257440182 1.8342087201284114 0.07581046042075514
+    translation -2.4551512476030823 -4.3468124566218265 2.4331911448079895
+    children [
+        Transform {
+            rotation 1 0 0 -0.7906274178802547
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 1.6151457412217494
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 1.4941401831595194 -0.34446535256998967 0.8494380768538043
+    translation -1.4843851118510152 -5.091684140401037 4.107007649259758
+    children [
+        Transform {
+            rotation 1 0 0 1.344211142490814
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 1.3218069386768505
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 -1.7611796990725672 0.7961431416869464 1.004861680069338
+    translation 0.908620171379658 -5.317523034959516 3.9734878913032343
+    children [
+        Transform {
+            rotation 1 0 0 1.1462380511182408
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 2.6045347700323327
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 -2.1444853330937956 0.6384545639617523 -0.27029382297997034
+    translation 2.1199139167177314 -6.034821887783865 2.020655375220053
+    children [
+        Transform {
+            rotation 1 0 0 1.2814332752024507
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 1.3218069386768483
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 -1.527784093288405 -1.9814456963828135 -0.29516781697056094
+    translation 1.4295622485308055 -5.363326321573334 0.18452066202895256
+    children [
+        Transform {
+            rotation 1 0 0 -0.6568345166191338
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 1.615145741221753
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 0.3174452473564138 1.4943150908030889 0.9469526476383635
+    translation 2.110466076317959 -5.119761018783471 -0.42064876093704306
+    children [
+        Transform {
+            rotation 1 0 0 -0.20932347006950783
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 1.615145741221753
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 1.164244554957527 -1.0329765488359834 0.8361061805069305
+    translation 4.03317846407851 -5.350430289767024 0.32019614021992737
+    children [
+        Transform {
+            rotation 1 0 0 0.8450699760328257
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 1.321806938676858
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 -2.2455585929090187 -2.4087534095740537 0.41873462225193847
+    translation 5.627423968637934 -3.629565310562006 -0.22046087875581843
+    children [
+        Transform {
+            rotation 1 0 0 -0.7503493769561758
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 2.604534770032281
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 -1.9934547375190679 0.14350394241817366 -0.5339552460941295
+    translation 5.76940187759127 -2.496940576984066 -2.3399675439698617
+    children [
+        Transform {
+            rotation 1 0 0 1.4989327331462472
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 1.3218069386768794
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 0.0978434613065593 -1.0488454886701666 -1.1562145941278652
+    translation 3.9817676729157867 -2.0442698038580693 -3.287773182076116
+    children [
+        Transform {
+            rotation 1 0 0 0.09301761781889872
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 1.6151457412217471
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 -0.9224916280675686 -0.6469025537364193 1.1253729974658546
+    translation 3.964956832832912 -1.1963957826547764 -3.7000972654566207
+    children [
+        Transform {
+            rotation 1 0 0 -0.959228077745972
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 1.6151457412217414
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 1.325580808336877 -1.516872554190444 0.5203848986736379
+    translation 5.72216527378711 -0.1145082286913448 -3.4985526753219665
+    children [
+        Transform {
+            rotation 1 0 0 0.7182013743348781
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 1.321806938676879
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 -0.48437889383626676 -3.2048965512610934 -0.45279778123035164
+    translation 5.510921383719325 2.246376324034424 -3.0779517180716613
+    children [
+        Transform {
+            rotation 1 0 0 -0.1500018775208264
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 2.6045347700322745
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 -1.50444584096409 0.3334107363807828 -0.8450622645310506
+    translation 3.8540896587312687 3.682119231474579 -4.07236408547184
+    children [
+        Transform {
+            rotation 1 0 0 1.3527042197555805
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 1.3218069386768625
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 1.0120716042747988 1.2396091321238494 -0.9122972037236342
+    translation 1.9515449332969919 2.895609297222263 -4.318551203816485
+    children [
+        Transform {
+            rotation 1 0 0 -0.6846877339884349
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 1.6151457412217516
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 -0.6263809251038062 -2.448226568950693 0.26024396344677425
+    translation 1.253830265426961 3.499918015635685 -4.125705864230989
+    children [
+        Transform {
+            rotation 1 0 0 -0.25047774889007857
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 1.615145741221745
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 1.8168126899181738 -1.3122573632788246 0.2643280035119551
+    translation 1.8935885075663288 5.3801599817504435 -3.530489981823805
+    children [
+        Transform {
+            rotation 1 0 0 0.9452697373583723
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 1.3218069386768385
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 1.7611796990725663 -0.7961431416869331 -1.0048616800693382
+    translation 0.6756150015424476 6.434360234233322 -1.741493787328435
+    children [
+        Transform {
+            rotation 1 0 0 1.146238051118247
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 2.604534770032325
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 -1.1664675399838957 1.0182681518870602 -0.8407679730977632
+    translation -1.710710521002417 6.323297729133259 -1.4441377077840998
+    children [
+        Transform {
+            rotation 1 0 0 0.8531284171377786
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 1.3218069386768527
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 0.3006721926481797 2.595463545205087 -0.04216625315391902
+    translation -2.6308832307069334 4.516431880587185 -1.8770353814519578
+    children [
+        Transform {
+            rotation 1 0 0 -0.11533119040522821
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 1.615145741221728
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 0.9096666532836988 -2.108332939625331 -0.4990424214077619
+    translation -3.311787058494132 4.272866577797307 -1.2718659584860186
+    children [
+        Transform {
+            rotation 1 0 0 0.40733170525093554
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 1.6151457412217498
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 2.1467083181201154 -0.6237461670128024 0.2735297053396263
+    translation -3.623975068363295 5.638906131116374 0.2563215272158885
+    children [
+        Transform {
+            rotation 1 0 0 1.2880230269210606
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 1.3218069386768558
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 2.245558592908825 2.408753409574121 -0.41873462225197833
+    translation -4.043188795715994 4.746402509835715 2.452454982730359
+    children [
+        Transform {
+            rotation 1 0 0 -0.7503493769561188
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 2.604534770032255
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 -1.3174981355586244 1.5132187734307045 -0.5273302980764127
+    translation -5.360198481876209 2.785416418333302 2.916485211405459
+    children [
+        Transform {
+            rotation 1 0 0 0.7163663068703187
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 1.321806938676879
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 -1.3249553619465537 1.662863337492313 0.621469723557232
+    translation -5.183088655092097 1.1973753628717931 1.59525846265287
+    children [
+        Transform {
+            rotation 1 0 0 0.6727814714271125
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 1.615145741221732
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 2.1496035287075568 0.032884704914279084 -0.6057443965759364
+    translation -5.166277815009217 0.3495013416684971 2.0075825460333716
+    children [
+        Transform {
+            rotation 1 0 0 -1.555499487400264
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 1.6151457412217392
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 1.9853720647408188 -0.13985016165844932 0.5409562886884034
+    translation -5.312961878072041 0.40298407004058223 4.075070342757559
+    children [
+        Transform {
+            rotation 1 0 0 1.5004722067235552
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 1.3218069386768807
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 0.48437889383644794 3.2048965512610144 0.45279778123038716
+    translation -3.9266862107973868 -1.1295391247607003 5.309945822046193
+    children [
+        Transform {
+            rotation 1 0 0 -0.15000187752088529
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 2.60453477003228
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 -1.8065070321135313 1.3233119794680404 -0.267330454844983
+    translation -3.4448862630160524 -3.3936433901252276 4.648881752907651
+    children [
+        Transform {
+            rotation 1 0 0 0.9385731949574871
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 1.3218069386768523
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 -2.239183504914905 -0.6255912833016275 0.47558362372871715
+    translation -3.1528659154731575 -3.742503738208434 2.626036484393433
+    children [
+        Transform {
+            rotation 1 0 0 -1.298359246902475
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 1.6151457412217498
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 -2.19057962406826 -0.8816525904539558 0.8068153148207041
+    translation 3.662252815519331 -5.274768310576011 1.9976082297328208
+    children [
+        Transform {
+            rotation 1 0 0 -1.1881585223651734
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 2.4133271381790093
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 -1.4925220959432002 -3.069116654178856 -0.017828572764771202
+    translation 6.329808638461626 -0.8906302786855509 -2.089501223181928
+    children [
+        Transform {
+            rotation 1 0 0 -0.4526304742198193
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 2.4133271381789343
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 0.6980575281250765 -2.187464063724885 -0.8329444361346345
+    translation 3.4596734094034014 4.942556631527413 -2.9711124009272565
+    children [
+        Transform {
+            rotation 1 0 0 0.3089019914002207
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 2.4133271381789907
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 2.190579624068098 0.8816525904540136 -0.8068153148207532
+    translation -2.0780176425972767 6.391605509849782 0.23438587424189716
+    children [
+        Transform {
+            rotation 1 0 0 -1.1881585223651252
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 2.4133271381789987
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 1.4925220959431975 3.0691166541788473 0.017828572764771507
+    translation -4.745573465539746 2.0074674779592305 4.32149532715637
+    children [
+        Transform {
+            rotation 1 0 0 -0.45263047421981967
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 2.4133271381789254
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 -0.6980575281248989 2.1874640637248346 0.8329444361346776
+    translation -1.8754382364813513 -3.8257194322536248 5.203106504901967
+    children [
+        Transform {
+            rotation 1 0 0 0.3089019914001537
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 2.413327138179
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 -1.2103388459319913 -0.48713060557972465 0.806815314820692
+    translation 2.490839565276911 -6.110483866974878 0.34324328570715945
+    children [
+        Transform {
+            rotation 1 0 0 -1.1881585223651783
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 0.8859311863493966
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 -0.8246481667610093 -1.6957480424065858 -0.01782857276476889
+    translation 5.161758512916754 -1.7208185269898597 -3.7490189961099003
+    children [
+        Transform {
+            rotation 1 0 0 -0.45263047421982233
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 0.885931186349393
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 0.38569067917099265 -1.2086174368268434 -0.8329444361346227
+    translation 2.288004756894196 4.1197225816976095 -4.631741666368388
+    children [
+        Transform {
+            rotation 1 0 0 0.3089019914002133
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 0.8859311863493906
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 1.2103388459318785 0.48713060557975574 -0.8068153148207607
+    translation -3.2566679467684354 5.570598350399851 -1.4222020548101084
+    children [
+        Transform {
+            rotation 1 0 0 -1.1881585223651239
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 0.8859311863493979
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 0.824648166761003 1.695748042406592 0.017828572764774987
+    translation -5.927586894408504 1.1809330104146536 2.6700602270066485
+    children [
+        Transform {
+            rotation 1 0 0 -0.45263047421981795
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 0.8859311863493962
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform {
+    rotation 0 -0.38569067917088695 1.208617436826784 0.8329444361346892
+    translation -3.0538331383857162 -4.65960809827264 3.552782897265442
+    children [
+        Transform {
+            rotation 1 0 0 0.3089019914001482
+            children [
+                Shape {
+                    appearance Appearance {
+                        material Material {
+                            diffuseColor 0.5 0.5 1
+                            transparency 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        height 0.8859311863493966
+                        radius 0.1
+                    }
+                }
+            ]
+        }
+    ]
+}
+
+# End of file!

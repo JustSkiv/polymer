@@ -1,0 +1,176 @@
+
+
+<head>
+<title>vrmlgraph home page</title>
+</head>
+
+<body bgcolor="#CCCCFF" text="#000000" link="#6666FF" vlink="#6666FF" alink="#6666FF">
+
+<div align="center">
+  <center>
+  <table border="0" width="600" cellspacing="0" cellpadding="3">
+    <tr>
+      <td bgcolor="#000066">
+        <h1 align="center"><font face="Arial" color="#FFFFFF">vrmlgraph</font></h1>
+      </td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFFFF">
+        <p align="center">&nbsp;</p>
+        <p align="center"><font face="Arial"><img border="0" src="images/spring3d.gif" width="100" height="73"></font></p>
+        <h2 align="center"><font face="Arial">3-D VRML graph drawing package in Java</font></h2>
+      </td>
+    </tr>
+    <tr>
+      <td bgcolor="#000066"><font color="#FFFFFF" face="Arial"><b>What is it?</b></font></td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFFFF"><font face="Arial" size="2">An object oriented Java
+        program available with source code for creating 3-D graph
+        representations, complete with example main methods and extensions for
+        performing the following:-</font>
+        <ul>
+          <li><font face="Arial" size="2">Storage of Nodes and Edges of a 3-D
+            graph in a single GraphData object.</font>
+          <li><font face="Arial" size="2">Parsing descriptions of connected
+            nodes from a graph program text file and populating a GraphData
+            object with them. The nodes do not need to specify their x,y,z
+            locations.</font>
+          <li><font face="Arial" size="2">Performing 3-D spring embedding
+            calculations to produce (often) aesthetically pleasing graphs from
+            any input.</font>
+          <li><font face="Arial" size="2">Center any 3-D graph about the origin.</font>
+          <li><font face="Arial" size="2">Output a text file that describes the
+            currently stored 3-D graph.</font>
+          <li><font face="Arial" size="2">Output a VRML file that shows a 3-D
+            view of the current graph.</font></li>
+        </ul>
+        <p><font face="Arial" size="2">You should be able to get a quick idea of
+        what this is capable of if you run the DemoMain Java classes included in
+        the zip file.</font>
+        <p><font face="Arial" size="2">If you do not have one already, then I
+        would strongly recommend that you install a VRML viewer to view the VRML
+        files with. After all, there's little point in making 3-D graphs if you
+        can't view them in 3-D ;-)</font>
+        <p><font face="Arial" size="2">You can get a free VRML viewer from <a href="http://www.cai.com/cosmo/">http://www.cai.com/cosmo/</a></font></p>
+        <p>&nbsp;</td>
+    </tr>
+    <tr>
+      <td bgcolor="#000066"><font color="#FFFFFF" face="Arial"><b>Example graphs</b></font></td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFFFF"><font face="Arial" size="2">Here are some example
+        graphs that have been generated using the vrmlgraph package:-</font>
+        <p>&nbsp;
+        <div align="center">
+          <table border="0">
+            <tbody>
+              <tr>
+                <td><img border="0" src="vrml/example01.gif" width="60" height="60"></td>
+                <td valign="middle"><font face="Arial" size="2"><a href="vrml/example01.wrl" target="_blank">example01.wrl</a>
+                  (10 KB)</font></td>
+              </tr>
+              <tr>
+                <td><img border="0" src="vrml/example02.gif" width="60" height="60"></td>
+                <td valign="middle"><font face="Arial" size="2"><a href="vrml/example02.wrl" target="_blank">example02.wrl</a>
+                  (35 KB)</font></td>
+              </tr>
+              <tr>
+                <td><img border="0" src="vrml/example03.gif" width="60" height="60"></td>
+                <td valign="middle"><font face="Arial" size="2"><a href="vrml/example03.wrl" target="_blank">example03.wrl</a>
+                  (37 KB)</font></td>
+              </tr>
+              <tr>
+                <td><img border="0" src="vrml/example04.gif" width="60" height="60"></td>
+                <td valign="middle"><font face="Arial" size="2"><a href="vrml/example04.wrl" target="_blank">example04.wrl</a>
+                  (56 KB)</font></td>
+              </tr>
+              <tr>
+                <td><img border="0" src="vrml/example05.gif" width="60" height="60"></td>
+                <td valign="middle"><font face="Arial" size="2"><a href="vrml/example05.wrl" target="_blank">example05.wrl</a>
+                  (74 KB)</font></td>
+              </tr>
+              <tr>
+                <td><img border="0" src="vrml/example06.gif" width="60" height="60"></td>
+                <td valign="middle"><font face="Arial" size="2"><a href="vrml/example06.wrl" target="_blank">example06.wrl</a>
+                  (57 KB)</font></td>
+              </tr>
+              <tr>
+                <td><img border="0" src="vrml/thiamine.gif" width="60" height="60"></td>
+                <td valign="middle"><font face="Arial" size="2"><a href="vrml/thiamine.wrl" target="_blank">thiamine.wrl</a>
+                  (41 KB)</font></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>&nbsp;</td>
+    </tr>
+    <tr>
+      <td bgcolor="#000066"><font color="#FFFFFF" face="Arial"><b>How do I compile and run the demo programs?</b></font></td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFFFF"><font face="Arial" size="2">This is quite easy, I
+        kid you not. Simply unzip the whole lot. There shouldn't be any need to
+        compile it, as there are both .java and .class files in the zip file,
+        but if you do want to for whatever reason, then a simple <code>javac
+        *.java</code> should do the trick.</font>
+        <p><font face="Arial" size="2">To actually give you some idea of what
+        this stuff does, I have made a few <code>DemoMain</code> classes. You
+        should be able to run these with <code>java DemoMain1</code> and so on
+        if you have properly unzipped the zip file (i.e. there should be a
+        directory leading off to <code>uk/org/iscream/vrmlgraph</code>. If
+        that's not working, then don't worry too much, because the entire <code>uk.org.iscream.vrmlgraph</code>
+        package is available in the <code>vrmlgraph.jar</code> file.</font>
+        <p><font face="Arial" size="2">To run one of the demo programs with the <code>vrmlgraph.jar</code>
+        file, you will need to tell Java to look for the package in that .jar
+        file. You can do this by adding the file to your classpath, or just run
+        java with the following command: <code>java -cp vrmlgraph.jar;.
+        DemoMain1</code></font>
+        <p><font face="Arial" size="2">All of the demo programs currently create
+        a text file to describe the new 3-D spring embedded graph as well as a
+        3-D VRML scene of it. Some of the demo programs read their input from a
+        file describing the starting nodes.</font>
+        <p><font face="Arial" size="2">Once you've got the hang of that, you
+        should be able to take a look at the source of the DemoMain programs to
+        work out what they are doing. You should then find it a piece of cake to
+        write your own Java applications that make use of this package.</font></p>
+        <p>&nbsp;</td>
+    </tr>
+    <tr>
+      <td bgcolor="#000066"><font color="#FFFFFF" face="Arial"><b>Download</b></font></td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFFFF"><font face="Arial" size="2">The latest information
+        about this 3-D spring embedder in Java should always be available from <a href="http://vrmlgraph.i-scream.org.uk">http://vrmlgraph.i-scream.org.uk</a></font>
+        <p><font face="Arial" size="2">You may download the package and example
+        files for you own use from the <a href="http://sourceforge.net/projects/vrmlgraph">sourceforge
+        page</a>.</font>
+        <p><font face="Arial" size="2">The zip file contains full source code,
+        all the compiled classes, javadoc information and a jar file of the
+        package.</font>
+        <p><font face="Arial" size="2">Please feel free to contact me via email
+        if you have any questions regarding the use of this package. If you
+        would like to use this package in one of your own programs, then I would
+        be delighted to hear from you. Above all, it would be nice to hear about
+        any ideas for improvement or additional features, or simply what you
+        think of it at the moment.</font></p>
+        <p>&nbsp;</td>
+    </tr>
+    <tr>
+      <td bgcolor="#000066"><font color="#FFFFFF" face="Arial"><b>Javadocs</b></font></td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFFFF"><font face="Arial" size="2">The zip file contains
+        javadoc information for this package, which you may also view here.<br>
+        <a href="javadocs/index.html">View javadocs</a>.</font>
+        <p>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>
+        <p align="center">&nbsp;</p>
+        <p align="center"><A href="http://sourceforge.net"> <IMG src="http://sourceforge.net/sflogo.php?group_id=24654" width="88" height="31" border="0" alt="SourceForge Logo"></A></p>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>

@@ -1,0 +1,50 @@
+# Copyright Paul James Mutton, 2000.
+#
+# This is a sample input file for creating 3-D graphs
+# using the spring embedder technique.
+#
+# Anything after a hash (#) symbol is regarded as a
+# comment and is thus ignored by the parser.
+#
+# To define two nodes as being connected, you simply
+# write them both down on the same line, with a space
+# separating them.  You may not connect a node to itself
+# or have any otherwise unconnected nodes.
+#
+# You do not have to specify a separate edge list, as
+# the program shall work all that out automatically.
+#
+# Now, let's define some connected nodes...
+#
+# This particular example is a graph representation of
+# a cyclohexane molecule.
+
+
+###################################
+# Edge declarations for the 
+# main carbon ring
+###################################
+Carbon_1 Carbon_2
+Carbon_2 Carbon_3
+Carbon_3 Carbon_4
+Carbon_4 Carbon_5
+Carbon_5 Carbon_6
+Carbon_6 Carbon_1
+
+
+###################################
+# Edge declarations for the
+# hydrogen atoms off the ring
+###################################
+Carbon_1 Hydrogen_1
+Carbon_1 Hydrogen_2
+Carbon_2 Hydrogen_3
+Carbon_2 Hydrogen_4
+Carbon_3 Hydrogen_5
+Carbon_3 Hydrogen_6
+Carbon_4 Hydrogen_7
+Carbon_4 Hydrogen_8
+Carbon_5 Hydrogen_9
+Carbon_5 Hydrogen_10
+Carbon_6 Hydrogen_11
+Carbon_6 Hydrogen_12

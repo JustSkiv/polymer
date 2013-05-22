@@ -1,0 +1,60 @@
+# Copyright Paul James Mutton, 2000.
+#
+# This is a sample input file for creating 3-D graphs
+# using the spring embedder technique.
+#
+# Anything after a hash (#) symbol is regarded as a
+# comment and is thus ignored by the parser.
+#
+# To define two nodes as being connected, you simply
+# write them both down on the same line, with a space
+# separating them.  You may not connect a node to itself
+# or have any otherwise unconnected nodes.
+#
+# You do not have to specify a separate edge list, as
+# the program shall work all that out automatically.
+#
+# Now, let's define some connected nodes...
+#
+# (Identical to the previous example)
+
+
+# base hexagon
+A B
+B C
+C D
+D E
+E F
+F A
+
+# rest of edges
+A 1
+B 2
+C 3
+D 4
+E 5
+F 6
+4 7
+7 8
+8 3
+2 9
+9 10
+10 1
+5 11
+11 12
+12 6
+1 6
+2 3
+4 5
+8 13
+13 14
+14 9
+7 15
+15 16
+16 11
+10 17
+17 18
+18 12
+14 17
+16 18
+13 15
