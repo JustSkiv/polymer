@@ -1,3 +1,5 @@
+import uk.org.iscream.vrmlgraph.*;
+
 import java.util.*;
 
 /**
@@ -8,6 +10,7 @@ import java.util.*;
  * To change this template use File | Settings | File Templates.
  */
 public class Polymer {
+
 
   /**
    * Строит одну точку по номеру направления (номера нужны для удобства построения циклом)
@@ -202,9 +205,9 @@ public class Polymer {
           continue;
         }
 
-        double distance = getDistanceSquared(pointA, pointB);
+        int distance = getDistanceSquared(pointA, pointB);
 
-        if (Math.round(distance) == 1) {
+        if (distance == 1) {
           energy += epsilon;
         }
 
@@ -263,9 +266,13 @@ public class Polymer {
     Map<Integer, Integer> distribution = new HashMap<Integer, Integer>();
 
     for (ArrayList<int[]> polymer : polymers) {
-      int tEnergy = Polymer.getEnergyInOnePolymer(polymer);
-      int tCount = distribution.get(tEnergy) == null ? 0 : distribution.get(tEnergy);
-      distribution.put(tEnergy, ++tCount);
+      if (Polymer.isNotIntersected(polymer)) {
+
+        int tEnergy = Polymer.getEnergyInOnePolymer(polymer);
+        int tCount = distribution.get(tEnergy) == null ? 0 : distribution.get(tEnergy);
+
+        distribution.put(tEnergy, ++tCount);
+      }
     }
 
 
@@ -373,10 +380,10 @@ public class Polymer {
 
     for (int i = 1; i <= length; i++) {
       int dirsCount = 6;
-      if (semiPhantom) dirsCount = 5;
+      if (semiPhantom && i != 1) dirsCount = 5;
       int directionNumber = generator.nextInt(dirsCount);
 
-      if (directionNumber >= (5 - lastDirection) && semiPhantom) {
+      if (directionNumber >= (5 - lastDirection) && semiPhantom && i != 1) {
         directionNumber++;
       }
 
@@ -406,6 +413,125 @@ public class Polymer {
     }
 
     return resultPolymers;
+  }
+
+  public static ArrayList<int[]> getPolymerWithMaxEnergy(ArrayList<ArrayList<int[]>> polymers) {
+    int c = 0;
+    int maxEnergyPolymerNumber = 0;
+    int maxEnergy = Polymer.getEnergyInOnePolymer(polymers.get(0));
+
+    ArrayList<int[]> polymer;
+    for (int i = 1; i < polymers.size(); i++) {
+      polymer = polymers.get(i);
+
+      if (Polymer.isNotIntersected(polymer)) {
+        int currentEnergy = Polymer.getEnergyInOnePolymer(polymer);
+
+        if (currentEnergy > maxEnergy) {
+          maxEnergy = currentEnergy;
+          maxEnergyPolymerNumber = i;
+        }
+      }
+    }
+
+    return polymers.get(maxEnergyPolymerNumber);
+  }
+
+  public static ArrayList<int[]> getPolymerWithMinEnergy(ArrayList<ArrayList<int[]>> polymers) {
+    int c = 0;
+    int minEnergyPolymerNumber = 0;
+    int minEnergy = Polymer.getEnergyInOnePolymer(polymers.get(0));
+
+    ArrayList<int[]> polymer;
+    for (int i = 1; i < polymers.size(); i++) {
+      polymer = polymers.get(i);
+
+      if (Polymer.isNotIntersected(polymer)) {
+        int currentEnergy = Polymer.getEnergyInOnePolymer(polymer);
+
+        if (currentEnergy < minEnergy) {
+          minEnergy = currentEnergy;
+          minEnergyPolymerNumber = i;
+        }
+      }
+    }
+
+    return polymers.get(minEnergyPolymerNumber);
+  }
+
+  public static void exportToVrml(ArrayList<int[]> polymer) throws Exception {
+    final String _outputTextFile = "test.txt";
+    final String _outputVRMLFile = "test.wrl";
+
+    // Create a GraphData object to store our graph in.
+    GraphData graph = new GraphData();
+
+    // Create some nodes for our graph.
+    Node nodeA = new Node("A", 0.0, 0.0, 0.0);
+    Node nodeB = new Node("B", 1.0, 1.0, 1.0);
+    Node nodeC = new Node("C", 1.0, 0.0, 1.0);
+
+    Node[] nodes = new Node[polymer.size()];
+
+    for (int i = 0; i < polymer.size(); i++) {
+
+
+      int[] currentPoint = polymer.get(i);
+      int x = currentPoint[0];
+      int y = currentPoint[1];
+      int z = currentPoint[2];
+
+      nodes[i] = new Node("A", x, y, z);
+
+    }
+
+    // Now create some edges for our graph.
+    // Edges merely keep a track of which nodes are connected.
+    Edge edge1 = new Edge(nodeA, nodeB);
+    Edge edge2 = new Edge(nodeB, nodeC);
+
+    Edge[] edges = new Edge[polymer.size() - 1];
+    for (int i = 0; i < polymer.size() - 1; i++) {
+      edges[i] = new Edge(nodes[i], nodes[i + 1]);
+    }
+
+    // Now add these nodes and edges to the graph!
+//    graph.addNode(nodeA);
+//    graph.addNode(nodeB);
+//    graph.addNode(nodeC);
+//
+//    graph.addEdge(edge1);
+//    graph.addEdge(edge2);
+
+    for (int i = 0; i < polymer.size() - 1; i++) {
+      graph.addNode(nodes[i]);
+      graph.addEdge(edges[i]);
+    }
+    graph.addNode(nodes[polymer.size() - 1]);
+
+    // Perform 100 calculations to move the graph into a nice layout.
+    NodeMover nodeMover = new NodeMover(graph);
+    nodeMover.move(2);
+
+    // Center the graph about (0,0,0).
+    ViewCenterer viewCenterer = new ViewCenterer(graph);
+    viewCenterer.center();
+
+    System.out.println("Outputting Text to " + _outputTextFile);
+
+    // Create a text file describing the newly located nodes.
+    TextOutput textOutput = new TextOutput(graph);
+    textOutput.writeToFile(_outputTextFile);
+
+    System.out.println("Outputting VRML scene to " + _outputVRMLFile);
+
+    // Create a 3-D VRML scene of the new graph.
+    VRMLOutput vrmlOutput = new VRMLOutput(graph);
+    vrmlOutput.setBackgroundColour("0 0 0");
+    vrmlOutput.setEdgeColour("1 0.5 0.5");
+    vrmlOutput.setNodeColour("0.5 0.5 1");
+    vrmlOutput.writeToFile(_outputVRMLFile);
+
   }
 
 }
